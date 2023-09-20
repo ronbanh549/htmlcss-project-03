@@ -432,6 +432,11 @@ a {
     height: 290px;
     object-fit: cover;
     display: block;
+    transition: 0.25s;
+}
+
+.member-item:hover .member-item__thumb {
+    transform: scale(1.1);
 }
 
 .member-item__name {
@@ -478,3 +483,51 @@ a {
 .member__control-next-icon {
     rotate: 180deg;
 }
+
+/* INSTALL */
+.install {
+    margin-top: 180px;
+}
+
+.install__inner {
+    border-radius: 4px;
+    background: #2e80ce;
+    display: flex;
+    padding: 0 70px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.install__img {
+    width: 284px;
+    height: 522px;
+    object-fit: cover;
+    margin-top: -95px;
+    display: block;
+}
+.install__content {
+    max-width: 586px;
+}
+.install__heading,
+.install__desc {
+    color: #fff;
+}
+
+.install__heading {
+    max-width: 489px;
+}
+.install__desc {
+    width: 586px;
+}
+
+.install__row {
+    display: flex;
+    gap: 28px;
+    margin-top: 38px;
+}
+/* .install__btn {
+    padding: 0;
+    outline: none;
+    border: none;
+    background: transparent;
+} */
